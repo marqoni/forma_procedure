@@ -23,30 +23,15 @@
 
 <body>
 
-tralala
-
-tralalalalal
-
-проба 123
     <div id="navigacija">
     <a href="#" id="back-to-top" title="Врх стране"><img src="images/arrow-up.png" height="60px" width="60px"></a>
 
     <a href="#" id="back-to-top2" title="Дно стране"><img src="images/arrow-down.png" height="60px" width="60px"></a>
     </div>
 
-    
-    
-    
    
         <div class="container">
-    
-
-        
-        <!-- <div class="col-lg-2"></div> -->
-            
-
-             
-                
+                  
 
                 	<div class="row">
                 		<div class="col-lg-12" style="text-align:center">
