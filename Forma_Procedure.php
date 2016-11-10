@@ -5095,7 +5095,7 @@ tralalalalal
                                       <input id="tags">
                                     </div> -->
 
-                                    <select id="result1" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result1" name="nazivPropisa" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -5159,7 +5159,7 @@ tralalalalal
                     <div class="btn btn-default fajl1-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl1-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl1" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5238,7 +5238,7 @@ tralalalalal
                            <br><br>
 
                                     
-                                    <select id="result2" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result2" name="nazivPropisa1" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
 
                                     <?php
@@ -5303,7 +5303,7 @@ tralalalalal
                     <div class="btn btn-default fajl2-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl2-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl2" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5381,7 +5381,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result3" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2" value="">
+                                    <select id="result3" name="nazivPropisa2" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2" value="">
 
 
                                     <?php
@@ -5444,7 +5444,7 @@ tralalalalal
                     <div class="btn btn-default fajl3-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl3-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl3" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5520,7 +5520,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result4" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result4" name="nazivPropisa3" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5585,7 +5585,7 @@ tralalalalal
                     <div class="btn btn-default fajl4-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl4-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl4" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5661,7 +5661,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result5" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result5" name="nazivPropisa4" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5724,7 +5724,7 @@ tralalalalal
                     <div class="btn btn-default fajl5-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl5-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl5" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5800,7 +5800,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result6" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result6" name="nazivPropisa5" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5863,7 +5863,7 @@ tralalalalal
                     <div class="btn btn-default fajl6-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl6-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl6" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -5938,7 +5938,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result7" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result7" name="nazivPropisa6" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6002,7 +6002,7 @@ tralalalalal
                     <div class="btn btn-default fajl7-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl7-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl7" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -6076,7 +6076,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result8" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result8" name="nazivPropisa7" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6139,7 +6139,7 @@ tralalalalal
                     <div class="btn btn-default fajl8-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl8-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl8" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -6216,7 +6216,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result9" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result9" name="nazivPropisa8" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6279,7 +6279,7 @@ tralalalalal
                     <div class="btn btn-default fajl9-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl9-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl9" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -6355,7 +6355,7 @@ tralalalalal
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result10" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result10" name="nazivPropisa9" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6418,7 +6418,7 @@ tralalalalal
                     <div class="btn btn-default fajl10-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl10-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="b_fajl10" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -11544,7 +11544,7 @@ tralalalalal
                     <div class="btn btn-default fajl11-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl11-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="d_fajl1" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -11792,7 +11792,7 @@ tralalalalal
                     <div class="btn btn-default fajl12-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl12-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="d_fajl2"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -12031,7 +12031,7 @@ tralalalalal
                     <div class="btn btn-default fajl13-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl13-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl3"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -12265,7 +12265,7 @@ tralalalalal
                     <div class="btn btn-default fajl14-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl14-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl4"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -12501,7 +12501,7 @@ tralalalalal
                     <div class="btn btn-default fajl15-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl15-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl5"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -12736,7 +12736,7 @@ tralalalalal
                     <div class="btn btn-default fajl16-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl16-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="d_fajl6" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -12972,7 +12972,7 @@ tralalalalal
                     <div class="btn btn-default fajl17-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl17-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl7"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -13207,7 +13207,7 @@ tralalalalal
                     <div class="btn btn-default fajl18-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl18-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl8"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -13442,7 +13442,7 @@ tralalalalal
                     <div class="btn btn-default fajl19-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl19-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file" name="d_fajl9"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -13675,7 +13675,7 @@ tralalalalal
                     <div class="btn btn-default fajl20-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl20-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="d_fajl10"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -13931,7 +13931,7 @@ tralalalalal
                     <div class="btn btn-default fajl21-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl21-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="dj_fajl1"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -14076,7 +14076,7 @@ tralalalalal
                     <div class="btn btn-default fajl22-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl22-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="dj_fajl2"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -14242,7 +14242,7 @@ tralalalalal
                     <div class="btn btn-default fajl23-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl23-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="dj_fajl3"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -14326,7 +14326,7 @@ tralalalalal
                     <div class="btn btn-default fajl24-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl24-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="dj_fajl4" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -14556,7 +14556,7 @@ tralalalalal
                     <div class="btn btn-default fajl25-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl25-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="e_fajl1" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
@@ -14749,7 +14749,7 @@ tralalalalal
                     <div class="btn btn-default fajl26-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="fajl26-input-title">Додај датотеку</span>
-                        <input type="file" accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
+                        <input type="file"  name="e_fajl2"  accept="image/png, image/jpeg, image/gif, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint"/> <!-- rename it -->
                     </div>
                 </span>
             </div><!-- /input-group image-preview [TO HERE]--> 
