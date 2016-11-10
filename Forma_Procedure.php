@@ -14446,7 +14446,7 @@
                 </div>
                 </div>
                 </section>
-                <div class="g">
+                
                 <section id="section_G">
 
                 <div class="row">
@@ -14455,7 +14455,7 @@
                         </div>
                 </div>
 
-                <div class="ž">
+                <div class="e">
                 <div class="row"> 
                         <div class="col-lg-1">
                             <span class="labelBrojevi">е1.</span>
@@ -14848,7 +14848,7 @@
 
 </div>
 </section>
-</div>
+
                 <section id="section_H">
 
                 <div class="row">
