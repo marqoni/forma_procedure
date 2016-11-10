@@ -14446,7 +14446,7 @@
                 </div>
                 </div>
                 </section>
-                <div class="g">
+                
                 <section id="section_G">
 
                 <div class="row">
@@ -14455,7 +14455,7 @@
                         </div>
                 </div>
 
-                <div class="ž">
+                <div class="e">
                 <div class="row"> 
                         <div class="col-lg-1">
                             <span class="labelBrojevi">е1.</span>
@@ -14649,7 +14649,7 @@
                     </div> 
                             <div class="col-lg-11" id = "tooltip1">
                             <span class="labelNazivi">Рок за одлучивање по жалби/приговору</span> 
-                                <br></br><textarea data-autoresize id="opis" ></textarea>
+                                <br></br><textarea data-autoresize id="opis" name="rokZaOdlucivanjeZalbe" ></textarea>
                                 <span class="tooltiptext" id = "tooltiptext1">Навести прописани рок за одлучивање надлежног органа о жалби/приговору. </span>
 </br>
 
@@ -14848,7 +14848,7 @@
 
 </div>
 </section>
-</div>
+
                 <section id="section_H">
 
                 <div class="row">
