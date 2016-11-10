@@ -14446,6 +14446,7 @@
                 </div>
                 </div>
                 </section>
+                <div class="g">
                 <section id="section_G">
 
                 <div class="row">
@@ -14847,6 +14848,7 @@
 
 </div>
 </section>
+</div>
                 <section id="section_H">
 
                 <div class="row">
@@ -14929,7 +14931,8 @@
                                 <span class="tooltiptext" id = "tooltiptext1">Бира се једна или више понуђених опција, уз образложење предлога за измену. У случају више предлога, одабрати више понуђених опција и образложити.</span>
                                    </div> 
                                 <br></br> 
-                                <div class="col-lg-12"> 
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-11"> 
 
                             <div class="checkbox1" >
                                 <label><input type="checkbox" value="Поједностављење прописа" name="izmenaPredlog[]" id="izbor-1">Поједностављење прописа</label>
