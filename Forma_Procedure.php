@@ -7050,7 +7050,7 @@
                 		
                         <div class="col-lg-11" id = "tooltip6">
                             <span class="labelNazivi">Назив документа:</span>
-                            <br></br><textarea data-autoresize name="nazivDokumenta"></textarea></br>
+                            <br></br><textarea data-autoresize name="nazivDokument"></textarea></br>
                             <span class="tooltiptext" id = "tooltiptext1">Наводи се пун назив документа-доказа, који је истакнут на самом документу-доказу. Нпр. уколико је у одређеном административном поступку потребно доставити доказ о положеном државном испиту, наводи се: „Уверење о положеном државном стручном испиту по програму за високо образовање“. Уколико се за различите категорије потражују различита документа, потребно је сваки посебно навести, уз прецизирање категорије на коју се односи (следи опис у следећој тачки).</span>
 
                             
@@ -7117,16 +7117,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7266,16 +7266,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument2[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument2[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument2[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument2[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7290,10 +7290,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g2" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije2[]" id="izbor1g2" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g2" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije2[]" id="izbor2g2" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -7301,16 +7301,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g2" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g2" name="pribavljanjePoSlDuz2[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g2" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g2" name="pribavljanjePoSlDuz2[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g2" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g2" name="pribavljanjePoSlDuz2[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g2" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g2" name="pribavljanjePoSlDuz2[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -7410,16 +7410,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument3[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument3[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument3[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument3[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7434,10 +7434,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g3" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije3[]" id="izbor1g3" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g3" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije3[]" id="izbor2g3" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -7445,16 +7445,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g3" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g3" name="pribavljanjePoSlDuz3[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g3" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g3" name="pribavljanjePoSlDuz3[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g3" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g3" name="pribavljanjePoSlDuz3[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g3" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g3" name="pribavljanjePoSlDuz3[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -7555,16 +7555,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument4[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument4[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument4[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument4[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7579,10 +7579,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g4" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije4[]" id="izbor1g4" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g4" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije4[]" id="izbor2g4" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -7590,16 +7590,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g4" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g4" name="pribavljanjePoSlDuz4[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g4" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g4" name="pribavljanjePoSlDuz4[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g4" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g4" name="pribavljanjePoSlDuz4[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g4" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g4" name="pribavljanjePoSlDuz4[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -7700,16 +7700,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument5[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument5[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument5[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument5[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7724,10 +7724,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g5" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije5[]" id="izbor1g5" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g5" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije5[]" id="izbor2g5" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -7735,16 +7735,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g5" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g5" name="pribavljanjePoSlDuz5[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g5" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g5" name="pribavljanjePoSlDuz5[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g5" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g5" name="pribavljanjePoSlDuz5[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g5" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g5" name="pribavljanjePoSlDuz5[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -7846,16 +7846,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument6[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument6[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument6[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument6[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -7870,10 +7870,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g6" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije6[]" id="izbor1g6" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g6" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije6[]" id="izbor2g6" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -7881,16 +7881,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g6" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g6" name="pribavljanjePoSlDuz6[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g6" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g6" name="pribavljanjePoSlDuz6[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g6" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g6" name="pribavljanjePoSlDuz6[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g6" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g6" name="pribavljanjePoSlDuz6[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -7991,16 +7991,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument7[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument7[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument7[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument7[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8015,10 +8015,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g7" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije7[]" id="izbor1g7" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g7" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije7[]" id="izbor2g7" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8026,16 +8026,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g7" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g7" name="pribavljanjePoSlDuz7[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g7" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g7" name="pribavljanjePoSlDuz7[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g7" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g7" name="pribavljanjePoSlDuz7[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g7" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g7" name="pribavljanjePoSlDuz7[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8137,16 +8137,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument8[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument8[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument8[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument8[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8161,10 +8161,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g8" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije8[]" id="izbor1g8" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g8" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije8[]" id="izbor2g8" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8172,16 +8172,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g8" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g8" name="pribavljanjePoSlDuz8[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g8" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g8" name="pribavljanjePoSlDuz8[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g8" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g8" name="pribavljanjePoSlDuz8[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g8" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g8" name="pribavljanjePoSlDuz8[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8282,16 +8282,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument9[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument9[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument9[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument9[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8306,10 +8306,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g9" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije9[]" id="izbor1g9" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g9" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije9[]" id="izbor2g9" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8317,16 +8317,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g9" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g9" name="pribavljanjePoSlDuz9[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g9" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g9" name="pribavljanjePoSlDuz9[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g9" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g9" name="pribavljanjePoSlDuz9[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g9" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g9" name="pribavljanjePoSlDuz9[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8429,16 +8429,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument10[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument10[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument10[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument10[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8453,10 +8453,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g10" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije10[]" id="izbor1g10" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g10" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije10[]" id="izbor2g10" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8464,16 +8464,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g10" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g10" name="pribavljanjePoSlDuz10[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g10" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g10" name="pribavljanjePoSlDuz10[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g10" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g10" name="pribavljanjePoSlDuz10[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g10" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g10" name="pribavljanjePoSlDuz10[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8575,16 +8575,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument11[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument11[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument11[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument11[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8599,10 +8599,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g11" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije11[]" id="izbor1g11" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g11" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije11[]" id="izbor2g11" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8610,16 +8610,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g11" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g11" name="pribavljanjePoSlDuz11[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g11" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g11" name="pribavljanjePoSlDuz11[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g11" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g11" name="pribavljanjePoSlDuz11[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g11" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g11" name="pribavljanjePoSlDuz11[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8721,16 +8721,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument12[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument12[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument12[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument12[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8745,10 +8745,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g12" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije12[]" id="izbor1g12" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g12" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije12[]" id="izbor2g12" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8756,16 +8756,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g12" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g12" name="pribavljanjePoSlDuz12[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g12" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g12" name="pribavljanjePoSlDuz12[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g12" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g12" name="pribavljanjePoSlDuz12[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g12" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g12" name="pribavljanjePoSlDuz12[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -8867,16 +8867,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument13[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument13[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument13[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument13[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -8891,10 +8891,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g13" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije13[]" id="izbor1g13" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g13" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije13[]" id="izbor2g13" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -8902,16 +8902,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g13" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g13" name="pribavljanjePoSlDuz13[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g13" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g13" name="pribavljanjePoSlDuz13[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g13" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g13" name="pribavljanjePoSlDuz13[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g13" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g13" name="pribavljanjePoSlDuz13[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9013,16 +9013,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument14[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument14[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument14[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument14[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9037,10 +9037,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g14" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije14[]" id="izbor1g14" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g14" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije14[]" id="izbor2g14" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9048,16 +9048,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g14" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g14" name="pribavljanjePoSlDuz14[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g14" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g14" name="pribavljanjePoSlDuz14[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g14" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g14" name="pribavljanjePoSlDuz14[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g14" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g14" name="pribavljanjePoSlDuz14[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9158,16 +9158,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument15[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument15[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument15[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument15[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9182,10 +9182,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g15" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije15[]" id="izbor1g15" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g15" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije15[]" id="izbor2g15" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9193,16 +9193,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g15" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g15" name="pribavljanjePoSlDuz15[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g15" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g15" name="pribavljanjePoSlDuz15[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g15" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g15" name="pribavljanjePoSlDuz15[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g15" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g15" name="pribavljanjePoSlDuz15[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9304,16 +9304,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument16[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument16[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument16[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument16[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9328,10 +9328,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g16" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije16[]" id="izbor1g16" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g16" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije16[]" id="izbor2g16" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9339,16 +9339,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g16" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g16" name="pribavljanjePoSlDuz16[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g16" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g16" name="pribavljanjePoSlDuz16[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g16" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g16" name="pribavljanjePoSlDuz16[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g16" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g16" name="pribavljanjePoSlDuz16[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9450,16 +9450,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument17[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument17[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument17[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument17[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9474,10 +9474,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g17" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije17[]" id="izbor1g17" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g17" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije17[]" id="izbor2g17" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9485,16 +9485,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g17" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g17" name="pribavljanjePoSlDuz17[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g17" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g17" name="pribavljanjePoSlDuz17[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g17" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g17" name="pribavljanjePoSlDuz17[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g17" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g17" name="pribavljanjePoSlDuz17[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9595,16 +9595,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument18[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument18[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument18[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument18[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9619,10 +9619,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g18" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije18[]" id="izbor1g18" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g18" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije18[]" id="izbor2g18" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9630,16 +9630,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g18" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g18" name="pribavljanjePoSlDuz18[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g18" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g18" name="pribavljanjePoSlDuz18[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g18" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g18" name="pribavljanjePoSlDuz18[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g18" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g18" name="pribavljanjePoSlDuz18[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9740,16 +9740,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument19[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument19[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument19[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument19[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9764,10 +9764,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g19" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije19[]" id="izbor1g19" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g19" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije19[]" id="izbor2g19" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9775,16 +9775,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g19" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g19" name="pribavljanjePoSlDuz19[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g19" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g19" name="pribavljanjePoSlDuz19[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g19" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g19" name="pribavljanjePoSlDuz19[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g19" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g19" name="pribavljanjePoSlDuz19[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -9885,16 +9885,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument20[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument20[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument20[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument20[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -9909,10 +9909,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g20" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije20[]" id="izbor1g20" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g20" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije20[]" id="izbor2g20" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -9920,16 +9920,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g20" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g20" name="pribavljanjePoSlDuz20[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g20" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g20" name="pribavljanjePoSlDuz20[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g20" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g20" name="pribavljanjePoSlDuz20[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g20" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g20" name="pribavljanjePoSlDuz20[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10030,16 +10030,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument21[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument21[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument21[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument21[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10054,10 +10054,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g21" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije21[]" id="izbor1g21" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g21" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije21[]" id="izbor2g21" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10065,16 +10065,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g21" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g21" name="pribavljanjePoSlDuz21[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g21" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g21" name="pribavljanjePoSlDuz21[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g21" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g21" name="pribavljanjePoSlDuz21[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g21" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g21" name="pribavljanjePoSlDuz21[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10175,16 +10175,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument22[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument22[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument22[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument22[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10199,10 +10199,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g22" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije22[]" id="izbor1g22" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g22" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije22[]" id="izbor2g22" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10210,16 +10210,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g22" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g22" name="pribavljanjePoSlDuz22[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g22" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g22" name="pribavljanjePoSlDuz22[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g22" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g22" name="pribavljanjePoSlDuz22[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g22" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g22" name="pribavljanjePoSlDuz22[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10320,16 +10320,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument23[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument23[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument23[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument23[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10344,10 +10344,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g23" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije23[]" id="izbor1g23" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g23" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije23[]" id="izbor2g23" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10355,16 +10355,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g23" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g23" name="pribavljanjePoSlDuz23[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g23" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g23" name="pribavljanjePoSlDuz23[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g23" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g23" name="pribavljanjePoSlDuz23[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g23" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g23" name="pribavljanjePoSlDuz23[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10465,16 +10465,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument2425[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument2425[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument2425[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument2425[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10489,10 +10489,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g24" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije2425[]" id="izbor1g24" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g24" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije2425[]" id="izbor2g24" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10500,16 +10500,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g24" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g24" name="pribavljanjePoSlDuz2425[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g24" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g24" name="pribavljanjePoSlDuz2425[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g24" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g24" name="pribavljanjePoSlDuz2425[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g24" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g24" name="pribavljanjePoSlDuz2425[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10610,16 +10610,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument25[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument25[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument25[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument25[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10634,10 +10634,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g25" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije25[]" id="izbor1g25" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g25" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije25[]" id="izbor2g25" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10645,16 +10645,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g25" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g25" name="pribavljanjePoSlDuz25[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g25" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g25" name="pribavljanjePoSlDuz25[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g25" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g25" name="pribavljanjePoSlDuz25[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g25" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g25" name="pribavljanjePoSlDuz25[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10755,16 +10755,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument26[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument26[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument26[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument26[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10779,10 +10779,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g26" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije26[]" id="izbor1g26" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g26" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije26[]" id="izbor2g26" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10790,16 +10790,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g26" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g26" name="pribavljanjePoSlDuz26[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g26" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g26" name="pribavljanjePoSlDuz26[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g26" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g26" name="pribavljanjePoSlDuz26[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g26" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g26" name="pribavljanjePoSlDuz26[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -10900,16 +10900,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument27[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument27[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument27[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument27[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -10924,10 +10924,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g27" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije27[]" id="izbor1g27" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g27" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije27[]" id="izbor2g27" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -10935,16 +10935,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g27" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g27" name="pribavljanjePoSlDuz27[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g27" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g27" name="pribavljanjePoSlDuz27[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g27" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g27" name="pribavljanjePoSlDuz27[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g27" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g27" name="pribavljanjePoSlDuz27[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -11044,16 +11044,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument28[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument28[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument28[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument28[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -11068,10 +11068,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g28" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije28[]" id="izbor1g28" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g28" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije28[]" id="izbor2g28" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -11079,16 +11079,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g28" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g28" name="pribavljanjePoSlDuz28[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g28" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g28" name="pribavljanjePoSlDuz28[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g28" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g28" name="pribavljanjePoSlDuz28[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g28" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g28" name="pribavljanjePoSlDuz28[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -11189,16 +11189,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument29[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument29[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument29[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument29[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -11213,10 +11213,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g29" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije29[]" id="izbor1g29" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g29" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije29[]" id="izbor2g29" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -11224,16 +11224,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g29" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g29" name="pribavljanjePoSlDuz29[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g29" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g29" name="pribavljanjePoSlDuz29[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g29" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g29" name="pribavljanjePoSlDuz29[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g29" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g29" name="pribavljanjePoSlDuz29[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
@@ -11334,16 +11334,16 @@
                             <span class="labelNazivi">Форма документа:</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оригинал">Оригинал</label>
+                                <label><input type="checkbox" name="formaDokument30[]" value="Оригинал">Оригинал</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија">Копија</label>
+                                <label><input type="checkbox" name="formaDokument30[]" value="Копија">Копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Оверена копија">Оверена копија</label>
+                                <label><input type="checkbox" name="formaDokument30[]" value="Оверена копија">Оверена копија</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="formaDokumenta[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
+                                <label><input type="checkbox" name="formaDokument30[]" value="Копија уз оригинал на увид">Копија уз оригинал на увид</label>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">Бира се једна од понуђених опција, којом се утврђује форма у којој се документ доставља надлежном органу / организацији, тј. да ли је потребно доставити оригинал, копију, оверену копију или се документ доставља у копији, уз оригинал на увид. У случају да је могуће алтернативно достављање различитих форми (примера ради: оригинал или оверена копија), потребно је обележити све могуће форме.</span>
 
@@ -11358,10 +11358,10 @@
                             <span class="labelNazivi">Начин прибављања документа</span>
                             <br>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor1g30" value="Подносилац захтева">Подносилац захтева</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije30[]" id="izbor1g30" value="Подносилац захтева">Подносилац захтева</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" name="pribavljanjeDokumentacije[]" id="izbor2g30" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
+                                <label><input type="checkbox" name="pribavljanjeDokumentacije30[]" id="izbor2g30" value="Орган по службеној дужности:">Орган по службеној дужности:</label>
                             </div>
                             
                             
@@ -11369,16 +11369,16 @@
                             </div>
                             <div class="col-lg-11" >
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor3g30" name="pribavljanjePoSlDuz[]" disabled="">Eлектронски увид</label>
+                                <label><input type="checkbox" id="izbor3g30" name="pribavljanjePoSlDuz30[]" disabled="">Eлектронски увид</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor4g30" name="pribavljanjePoSlDuz[]" disabled="">Електронски допис</label>
+                                <label><input type="checkbox" id="izbor4g30" name="pribavljanjePoSlDuz30[]" disabled="">Електронски допис</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor5g30" name="pribavljanjePoSlDuz[]" disabled="">Редовна пошта</label>
+                                <label><input type="checkbox" id="izbor5g30" name="pribavljanjePoSlDuz30[]" disabled="">Редовна пошта</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" id="izbor6g30" name="pribavljanjePoSlDuz[]" disabled="">Други начин</label>
+                                <label><input type="checkbox" id="izbor6g30" name="pribavljanjePoSlDuz30[]" disabled="">Други начин</label>
                             </div>
                             </div>
                             <span class="tooltiptext" id = "tooltiptext1">У овом пољу означити, пре свега, да ли документ прилаже подносилац захтева или га надлежни орган прибавља од других органа / организација, по службеној дужности. Уколико се документ у пракси прибавља по службеној дужности, потребно је означити на који начин надлежни орган прибавља потребни документ (електронски увид, електронски допис, редовна пошта, други начин).</span>
