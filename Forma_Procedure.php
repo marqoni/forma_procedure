@@ -5075,7 +5075,7 @@
                                       <input id="tags">
                                     </div> -->
 
-                                    <select id="result1" name="nazivPropisa" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result1" name="nazivPropisa1" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -5121,7 +5121,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt1"></textarea>
                         <br>
 
     
@@ -5218,7 +5218,7 @@
                            <br><br>
 
                                     
-                                    <select id="result2" name="nazivPropisa1" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result2" name="nazivPropisa2" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
 
                                     <?php
@@ -5265,7 +5265,7 @@
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
 
-                          <textarea data-autoresize id="opis" name="nazivPropisaOpt1"></textarea>
+                          <textarea data-autoresize id="opis" name="nazivPropisaOpt2"></textarea>
 
                         <br>
                                           
@@ -5361,7 +5361,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result3" name="nazivPropisa2" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2" value="">
+                                    <select id="result3" name="nazivPropisa3" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2" value="">
 
 
                                     <?php
@@ -5407,7 +5407,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt2"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt3"></textarea>
                         <br>
                                           
     <div class="row">    
@@ -5500,7 +5500,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result4" name="nazivPropisa3" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result4" name="nazivPropisa4" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5548,7 +5548,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt3"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt4"></textarea>
                         <br>
                                           
     <div class="row">    
@@ -5641,7 +5641,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result5" name="nazivPropisa4" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result5" name="nazivPropisa5" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5687,7 +5687,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt4" ></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt5" ></textarea>
                         <br>
                               
     <div class="row">    
@@ -5780,7 +5780,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result6" name="nazivPropisa5" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result6" name="nazivPropisa6" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5826,7 +5826,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt5"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt6"></textarea>
                         <br>
                                           
     <div class="row">    
@@ -5918,7 +5918,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result7" name="nazivPropisa6" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result7" name="nazivPropisa7" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -5965,7 +5965,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt6"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt7"></textarea>
                         <br>
                                           
     <div class="row">    
@@ -6056,7 +6056,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result8" name="nazivPropisa7" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result8" name="nazivPropisa8" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6102,7 +6102,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt7"></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt8"></textarea>
                         <br>
                                           
     <div class="row">    
@@ -6196,7 +6196,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result9" name="nazivPropisa8" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result9" name="nazivPropisa9" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6242,7 +6242,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt8" ></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt9" ></textarea>
                         <br>
                                           
     <div class="row">    
@@ -6335,7 +6335,7 @@
                             <span class="labelNazivi">Назив прописа и број службеног гласила</span>
                            <br><br>
 
-                                    <select id="result10" name="nazivPropisa9" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
+                                    <select id="result10" name="nazivPropisa10" data-placeholder="Изаберите..." class="chosen-select" style="width:100%;" tabindex="2">
 
                                     
 
@@ -6381,7 +6381,7 @@
 
                         <div class="col-lg-11" id = "tooltip1">
                         <span class="labelNazivi">Уколико пропис није објављен у службеном гласилу, навести назив прописа и приложити пропис</span>
-                         <textarea data-autoresize id="opis" name="nazivPropisaOpt9" ></textarea>
+                         <textarea data-autoresize id="opis" name="nazivPropisaOpt10" ></textarea>
                         <br>
                                           
     <div class="row">    
@@ -11459,7 +11459,7 @@
 
 
                                     
-                                    <select id="result11" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result11" name="nazivPropisa11" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -11698,7 +11698,7 @@
                            <br><br>
 
 
-                                    <select id="result12" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result12" name="nazivPropisa12" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -11735,22 +11735,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                          
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak2" required></br>
-
-                            </div>
-                            </div>
+                    </div>   
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -11783,7 +11772,20 @@
 
                         </div>
                         
+                    </div>                       
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak2" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -11937,7 +11939,7 @@
                            <br><br>
 
 
-                                    <select id="result13" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result13" name="nazivPropisa13" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -11974,22 +11976,10 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                          
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak3" required></br>
-
-                            </div>
-                            </div>
-
+                    </div>  
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -12022,7 +12012,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak3" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -12171,7 +12174,7 @@
                            <br><br>
 
 
-                                    <select id="result14" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result14" name="nazivPropisa14" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -12208,22 +12211,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                           
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak4" required></br>
-
-                            </div>
-                            </div>
+                    </div>      
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -12256,7 +12248,20 @@
 
                         </div>
                         
+                    </div>                     
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak4" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -12407,7 +12412,7 @@
 
 
 
-                                    <select id="result15" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result15" name="nazivPropisa15" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -12444,22 +12449,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                           
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak5" required></br>
-
-                            </div>
-                            </div>
+                    </div>   
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -12492,7 +12486,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak5" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -12642,7 +12649,7 @@
 
 
 
-                                    <select id="result16" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result16" name="nazivPropisa16" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -12679,22 +12686,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                          
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak6" required></br>
-
-                            </div>
-                            </div>
+                    </div>  
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -12727,7 +12723,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak6" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -12878,7 +12887,7 @@
 
                                     
 
-                                    <select id="result17" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result17" name="nazivPropisa17" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -12915,22 +12924,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                           
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak7" required></br>
-
-                            </div>
-                            </div>
+                    </div>      
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -12963,7 +12961,20 @@
 
                         </div>
                         
+                    </div>                     
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak7" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -13113,7 +13124,7 @@
                            <br><br>
 
 
-                                <select id="result18" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                <select id="result18" name="nazivPropisa18" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -13150,22 +13161,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                          
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak8" required></br>
-
-                            </div>
-                            </div>
+                    </div>  
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -13198,7 +13198,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak8" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -13348,7 +13361,7 @@
                            <br><br>
 
 
-                                    <select id="result19" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                                    <select id="result19" name="nazivPropisa19" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -13385,22 +13398,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                           
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak9" required></br>
-
-                            </div>
-                            </div>
+                    </div>   
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -13433,7 +13435,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak9" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -13581,7 +13596,7 @@
                             <span class="labelNazivi">Нaзив прописа, кojим се утврђуjе издатак и број службеног гласила</span>
                            <br><br>
 
-                            <select id="result20" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
+                            <select id="result20" name="nazivPropisa20" data-placeholder="Изаберите..." class="chosen-select" style="width: 100%" tabindex="2">
 
                                     
 
@@ -13618,22 +13633,11 @@
                            <span class="tooltiptext" id = "tooltiptext1">Онлајн формулар је повезан са порталом Службеног гласника, тако да је могућ одабир назива релевантног прописа и бројева службеног гласила. Уколико постоји два или више прописа са истим називом, али различитим бројевима службених гласила, навести таксативно сваки од њих.</span>    
                         </div>
 
-                    </div>                           
-
-                            <div class="row"> 
-                            <div class="col-lg-1">
-                        <span class="labelBrojevi">д4.</span>
-                    </div>
-                            <div class="col-lg-11">
-                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
-                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak10" required></br>
-
-                            </div>
-                            </div>
+                    </div>   
 
                     <div class="row">
                         <div class="col-lg-1">
-                         <span class="labelBrojevi">д5.</span>
+                         <span class="labelBrojevi">д4.</span>
                          </div>
 
                         <div class="col-lg-11" id = "tooltip1">
@@ -13666,7 +13670,20 @@
 
                         </div>
                         
+                    </div>                        
+
+                            <div class="row"> 
+                            <div class="col-lg-1">
+                        <span class="labelBrojevi">д5.</span>
                     </div>
+                            <div class="col-lg-11">
+                            <span class="labelNazivi">Члан/ови прописа којим/а се утврђује издатак</span>
+                                <br></br><input type="text" class='form-control' name="clanPropisIzdatak10" required></br>
+
+                            </div>
+                            </div>
+
+                    
 
                             <div class="row"> 
                             <div class="col-lg-1">
@@ -13931,7 +13948,7 @@
                     </div>
                             <div class="col-lg-11" id = "tooltip1">
                             <span class="labelNazivi">Члан/ови прописа којим/а се утврђује рок</span> 
-                                <br></br><input type="text" id="đ6" class='form-control' name='propis'>                        
+                                <br></br><input type="text" id="đ6" class='form-control' name='propisRok'>                        
                                 <span class="tooltiptext" id = "tooltiptext1">Уноси се члан прописа, којим се утврђује рок.</span>
 
 </br>
