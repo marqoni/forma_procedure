@@ -14649,7 +14649,7 @@
                     </div> 
                             <div class="col-lg-11" id = "tooltip1">
                             <span class="labelNazivi">Рок за одлучивање по жалби/приговору</span> 
-                                <br></br><textarea data-autoresize id="opis" ></textarea>
+                                <br></br><textarea data-autoresize id="opis" name="rokZaOdlucivanjeZalbe" ></textarea>
                                 <span class="tooltiptext" id = "tooltiptext1">Навести прописани рок за одлучивање надлежног органа о жалби/приговору. </span>
 </br>
 
