@@ -14990,7 +14990,7 @@
                             </div>
                             <div class="checkbox1">
                                 <label><input type="checkbox" value="Друго" name="izmenaPredlog[]" id="izbor-14">Друго</label>
-                                <textarea data-autoresize id="izmenaInput14" disabled="" name="Drugo"></textarea>
+                                <textarea data-autoresize id="izmenaInput14" disabled="" name="drugo"></textarea>
                             </div>
                             </div>
                          </div> 
