@@ -55,11 +55,6 @@
                         </div>
                     </div>
 
-
-
-
-
-
                     <div class="row">
                         <div class="col-lg-6" id = "tooltip2">
                              <h5><span class="labelNazivi">Шифра поступка</span></h5>
@@ -6515,14 +6510,14 @@
                 <div class="col-lg-1">
                 </div>
                 <div class="col-lg-5" id = "tooltip4">
-                <textarea data-autoresize name="organizacijaPreklapanje"></textarea>
+                <textarea data-autoresize name="organizacijaPreklapanje1"></textarea>
                 <span class="tooltiptext" id = "tooltiptext1">Навести називе других органа/организација, који/е решавају у једном делу поступка или којима надлежни орган / организација доставља неопходне податке током спровођења поступка. Описати активности сваког органа/ организације.</span>
 
                 </div>
                       
 
                     <div class="col-lg-5" id = "tooltip4">                        
-                    <textarea data-autoresize name="aktivnostPreklapanje"></textarea>
+                    <textarea data-autoresize name="aktivnostPreklapanje1"></textarea>
                     <span class="tooltiptext" id = "tooltiptext1">Навести називе других органа/организација, који/е решавају у једном делу поступка или којима надлежни орган / организација доставља неопходне податке током спровођења поступка. Описати активности сваког органа/ организације.</span>
 
                     </div>
@@ -7055,7 +7050,7 @@
                 		
                         <div class="col-lg-11" id = "tooltip6">
                             <span class="labelNazivi">Назив документа:</span>
-                            <br></br><textarea data-autoresize name="nazivDokument"></textarea></br>
+                            <br></br><textarea data-autoresize name="nazivDokumenta"></textarea></br>
                             <span class="tooltiptext" id = "tooltiptext1">Наводи се пун назив документа-доказа, који је истакнут на самом документу-доказу. Нпр. уколико је у одређеном административном поступку потребно доставити доказ о положеном државном испиту, наводи се: „Уверење о положеном државном стручном испиту по програму за високо образовање“. Уколико се за различите категорије потражују различита документа, потребно је сваки посебно навести, уз прецизирање категорије на коју се односи (следи опис у следећој тачки).</span>
 
                             
