@@ -5012,7 +5012,26 @@ tralalalalal
                     </div>
                         </div>
                 	
+
+
+
+
+                     <div class="row">
+                        <div class="col-lg-1">
+                             <span class="labelBrojevi">a18.</span>
+                        </div>
+                        
+                        <div class="col-lg-11" id = "tooltip1">
+                            <span class="labelNazivi">Навести извор унетих података за поља а16. и а17.</span>
+                            <br></br><textarea data-autoresize name="изворУнетихПодатака"></textarea></br>
+                            <span class="tooltiptext" id = "tooltiptext1">Облачић за а18.</span>
+
+
+                        </div>
                     </div>
+                    </div>
+
+
                     </section>
 
                     <section id="section_B">
